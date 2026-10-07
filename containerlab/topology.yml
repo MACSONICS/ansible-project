@@ -6,11 +6,11 @@ topology:
 
     r1:
       kind: linux
-      image: vyos/vyos:latest
+      image: afla/vyos:1.4
 
     r2:
       kind: linux
-      image: vyos/vyos:latest
+      image: afla/vyos:1.4
 
   links:
     - endpoints:
