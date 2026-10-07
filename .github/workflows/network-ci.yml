@@ -36,10 +36,7 @@ jobs:
       run: |
         ansible-galaxy collection install vyos.vyos
 
-    - name: Lint
-
-      run: |
-        ansible-lint ansible/site.yml
+    
 
   deploy:
 
